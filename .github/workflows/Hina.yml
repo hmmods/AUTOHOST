@@ -31,7 +31,7 @@ jobs:
          run: |
            git clone -b main https://Dark-Senpai:${{ secrets.GH_TOKEN }}@github.com/Parth-Senpai/TG-FileConverterBot.git
        - name: Running Hina Bot
-         timeout-minutes: 100
+         timeout-minutes: 180
          continue-on-error: true
          run: |
            cd TG-FileConverterBot
