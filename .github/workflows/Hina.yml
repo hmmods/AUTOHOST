@@ -31,7 +31,7 @@ jobs:
          run: |
            git clone -b main https://Dark-Senpai:${{ secrets.GH_TOKEN }}@github.com/Parth-Senpai/AE_ENCODER.git 
        - name: Running Hina Bot
-         timeout-minutes: 180
+         timeout-minutes: 300
          continue-on-error: true
          run: |
            cd AE_ENCODER 
